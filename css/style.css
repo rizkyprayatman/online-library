@@ -1,0 +1,424 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, input, button {
+  font-family: 'Poppins', sans-serif;
+}
+
+input, button {
+    font-size: 16px;
+}
+
+.button {
+  background-color: #39a9cb;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.overlay a {
+  color: white;
+  text-decoration: none;
+}
+
+.finish-button {
+  background-color: #0061a8; 
+  color: white; 
+  
+}
+
+.finish-button:hover {
+  background-color: #39a9cb;
+  color: white;
+}
+
+.unfinished-button {
+  background-color: #2f5d62; 
+  color: white; 
+  
+}
+
+.unfinished-button:hover {
+  background-color: #5e8b7e;
+  color: white;
+}
+
+.erase-button {
+  background-color: #f5a962; 
+  color: white; 
+  
+}
+
+.erase-button:hover {
+  background-color: #ffeda3;
+  color: black;
+}
+  
+
+.head_bar {
+  padding: 12px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  color: #293b5f;
+  box-shadow: 0 1px 2px 0 #39a9cb;
+}
+
+.head_bar span{
+  font-size: 30px;
+  cursor: pointer;
+  float: left;
+}
+
+.title {
+  text-align: center;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0061a8;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: larger;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.sidenav a:hover {
+  color: rgb(13, 5, 87);
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.overlay {
+  background: url(../images/photo-1507842217343-583bb7270b66.jpg);
+	text-align: center;
+	width: 100%;
+	height: 350px;
+	background-size: auto;
+	background-attachment: fixed;
+	overflow: hidden;
+	border-radius: 0 0 20% 20% / 20%;
+}
+
+.overlay .hero{
+	width: 100%;
+	height: 100%;
+	padding: 100px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 165deg, #2978b5 10%, #0e0ae76b 90%);
+}
+
+.overlay h1 {
+	font-size: 3em;
+	margin-bottom: 10px;
+}
+
+.overlay h2, p {
+	margin-bottom: 10px;
+}
+
+.overlay button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: white;
+	background:  #0061a8;
+	margin-bottom: 10px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+}
+
+.overlay button:hover{
+	cursor: pointer;
+	background: #37a8f8;
+}
+
+#inputBooks{
+  display: none;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.input_section {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 10px;
+  flex-grow: 1;
+  width: 50%;
+  margin: 40px auto;
+}
+
+.input_section > h2 {
+  text-align: center;
+  color: cornflowerblue;
+}
+
+.input_section > form > .input {
+    margin: 8px 0;
+}
+
+.input_section > form > button {
+  background-color: cornflowerblue;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.input_section > form > button:hover {
+  background-color: rgb(43, 106, 223);
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.input_section > form > button > span {
+  font-weight: bold;
+}
+
+.input_section > form > .input > input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.input_section > form > .input > label {
+  color: cornflowerblue;
+  font-weight: bold;
+}
+
+.input_section > form > .input_inline {
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+}
+
+.input_section > form > .input_inline > label {
+  color: cornflowerblue;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.search_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid white;
+  border-radius: 20px;
+  background: white;
+  margin: 10px auto;
+}
+
+.search_section > h2 {
+  color: #0061a8;
+  font-size: xx-large;
+}
+
+.search_section > form {
+  padding: 16px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2.5fr 0.5fr ;
+  grid-gap: 10px;
+}
+
+.search_section > form > label {
+  display: flex;
+  align-items: center;
+}
+
+.search_section > form > input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #2978b5;
+}
+
+.search_section > form > button {
+  background-color: #0061a8;
+  color: white;
+  border: 5;
+  font-size: small;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search_section > form > button:hover {
+  background-color: #37a8f8;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.shadow {
+  box-shadow: 0 5px 10px rgba(161, 177, 240, 0.5), 0 15px 40px rgba(128, 150, 238, 0.2);
+}
+
+.listBook {
+  padding: 16px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+
+}
+
+.book_shelf {
+  margin: 16px 0 0 0;
+  border: 1px solid #0061a8;
+  padding: 16px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 90%;    
+}
+
+.book_shelf > h2 {
+  color: #0061a8;
+}
+
+.book_shelf > .book_list {
+  padding: 16px;
+}
+
+.book_shelf > .book_list > .book_item {
+  padding: 8px 16px 16px 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.book_shelf > .book_list > .book_item > h3, p {
+  margin: 8px 0;
+}
+
+.book_shelf > .book_list > .book_item > .action > button {
+  border: 0;
+  padding: 5px;
+  margin: 0 5px 0 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 50px;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+}
+
+.popup h1 {
+  margin-top: 0;
+  color: #0061a8;
+  font-size: x-large;
+}
+
+.popup .close {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .close:hover {
+  color: #0061a8;
+  cursor: pointer;
+}
+
+.clearfix {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cancelbtn {
+  background-color: #2f5d62; 
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.cancelbtn:hover {
+  background-color: #5e8b7e;
+  color: white;
+}
+
+.deletebtn {
+  background-color: #f5a962; 
+  color: white; 
+  cursor: pointer;
+  border-radius: 8px;
+}
+.deletebtn:hover {
+  background-color: #ffeda3;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: #0061a8;
+  padding: 2px;
+}
+
+

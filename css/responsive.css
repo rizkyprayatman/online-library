@@ -1,0 +1,252 @@
+@media screen and (max-width: 900px) {
+    .cancelbtn, .deletebtn {
+      width: 100%;
+    } 
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  
+    .cancelbtn, .deletebtn {
+        width: 100%;
+    }
+  
+    .head_bar .title h1{
+      font-size: x-large;
+    }
+    
+    .head_bar span{
+      font-size: 25px;
+    }
+  
+    .overlay {
+      height: 250px;
+      background-size: unset;
+    }
+    
+    .overlay .hero{
+      padding: 80px;
+    }
+    
+    .overlay h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    
+    .overlay h2 {
+      margin-bottom: 5px;
+      font-size: 1em;
+    }
+  
+    .overlay p{
+      font-size: small;
+    }
+    
+    .overlay button {
+      padding: 5px 10px;
+      font-size: small;
+    }
+  
+    .input_section {
+      width: 80%;
+    }
+    
+    .input_section > h2 {
+      font-size: x-large;
+    }
+    
+    .search_section > h2 {
+      font-size: x-large;
+    }
+    
+    .search_section > form {
+      grid-template-columns: 5fr 2fr ;
+    }
+    
+    .search_section > form > button {
+      font-size: smaller;
+    }
+  
+    .listBook {
+      display: block;
+      width: 90%;
+      margin: 0 auto;
+    }
+    
+    .book_shelf {
+      margin: 20px auto;
+      width: 90%;    
+    }
+    
+    .book_shelf > h2 {
+      font-size: x-large;
+    }
+    
+    .book_shelf > .book_list > .book_item > h3, p {
+      font-size: medium;
+    }
+    
+    .book_shelf > .book_list > .book_item > .action > button {
+      font-size: x-small;
+    }
+    
+    .popup {
+      width: 60%;
+    }
+    
+    .popup h1 {
+      font-size: medium;
+    }
+  
+    .popup p {
+      font-size: small;
+    }
+    
+    .popup .close {
+      top: 5px;
+      right: 20px;
+      font-size: 25px;
+    }
+    
+    
+    .clearfix {
+      display: inline;
+    }
+    
+    .cancelbtn {
+      font-size: small;
+      width: 30%;
+    }
+    
+    .deletebtn {
+      width: 30%;
+      font-size: small;
+    }
+  
+    
+  
+  }
+  
+  @media screen and (max-width: 389px) {
+    .cancelbtn, .deletebtn {
+      width: 100%;
+    } 
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  
+    .cancelbtn, .deletebtn {
+        width: 100%;
+    }
+  
+    .head_bar .title h1{
+      font-size: large;
+    }
+    
+    .head_bar span{
+      font-size: 20px;
+    }
+    
+    .overlay {
+      height: 200px;
+    }
+  
+    .overlay h1 {
+      font-size: medium;
+      margin-bottom: 5px;
+    }
+    
+    .overlay h2 {
+      font-size: smaller;
+    }
+  
+    .overlay p{
+      font-size: x-small;
+    }
+    
+    .overlay button {
+      padding: 2px 5px;
+      font-size: x-small;
+    }
+  
+    .input_section {
+      width: 80%;
+    }
+  
+    .input_section > form > .input {
+      margin: 8px 0;
+  }
+  
+    .input_section > form > button {
+      width: 80%;
+      padding: 4px;
+      margin: 0 auto;
+      cursor: pointer;
+      font-size: small;
+    }
+  
+    .input_section > form > .input > input {
+      padding: 2px;
+    }
+  
+    .input_section > form > .input > label {
+      font-size: small;
+    }
+  
+    .input_section > form > .input_inline {
+      font-size: small;
+    }
+    
+    .input_section > h2 {
+      font-size: medium;
+    }
+    
+    .search_section > h2 {
+      font-size: medium;
+    }
+    
+    .search_section > form {
+      grid-template-columns: 6fr 2fr ;
+    }
+    
+    .search_section > form > button {
+      font-size: xx-small;
+      padding: 5px;
+    }
+    
+    .book_shelf > h2 {
+      font-size: medium;
+    }
+    
+    .book_shelf > .book_list > .book_item > h3, p {
+      font-size: small;
+    }
+    
+    .book_shelf > .book_list > .book_item > .action > button {
+      font-size: xx-small;
+    }
+    
+    .popup h1 {
+      font-size: small;
+    }
+  
+    .popup p {
+      font-size: x-small;
+    }
+    
+    .popup .close {
+      top: 5px;
+      right: 20px;
+      font-size: 20px;
+    }
+    
+    .cancelbtn {
+      font-size: xx-small;
+      width: 30%;
+    }
+    
+    .deletebtn {
+      width: 30%;
+      font-size: xx-small;
+    }
+  
+  }
+    
+    
